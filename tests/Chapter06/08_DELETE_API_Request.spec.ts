@@ -6,7 +6,7 @@ import patchAPIRequest from '../../test-data/api_requests/PATCH_API_Request.json
 
 test.use({ baseURL: process.env.BASE_API_URL, })
 
-test('DELETE API request using playwright', async ({ request }) => {
+test('DELETE API request using playwright',{tag:['@PlaywrightWithJenkins']}, async ({ request }) => {
 
     const firstname = faker.person.firstName();
     const lastname = faker.person.lastName();

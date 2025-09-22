@@ -1,0 +1,31 @@
+POST API Response: {
+  "bookingid": 1839,
+  "booking": {
+    "firstname": "Genevieve",
+    "lastname": "Veum",
+    "totalprice": 1295,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 1839
+GET API Response: {
+  "firstname": "Genevieve",
+  "lastname": "Veum",
+  "totalprice": 1295,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "8507286c6d87caa"
+}
+Token is : 8507286c6d87caa
+Delete API Response Created

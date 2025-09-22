@@ -4,7 +4,7 @@ import {test, expect} from '@playwright/test'
 
 // write a test
 
-test('My First playwright test script',async ({page})=>{
+test('My First playwright test script',{tag:['@PlaywrightWithJenkins']},async ({page})=>{
 
 // Go to URL
 
