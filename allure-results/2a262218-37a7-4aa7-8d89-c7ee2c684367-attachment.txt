@@ -1,0 +1,27 @@
+POST API Response: {
+  "bookingid": 627,
+  "booking": {
+    "firstname": "Michelle",
+    "lastname": "Mueller",
+    "totalprice": 2681,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 627
+GET API Response: {
+  "firstname": "Michelle",
+  "lastname": "Mueller",
+  "totalprice": 2681,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+Token is : 543f825c48ca11a

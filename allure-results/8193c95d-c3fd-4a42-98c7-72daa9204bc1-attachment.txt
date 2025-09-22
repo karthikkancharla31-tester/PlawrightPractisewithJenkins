@@ -1,0 +1,15 @@
+POST API Response: {
+  "bookingid": 2320,
+  "booking": {
+    "firstname": "Finn",
+    "lastname": "Rolfson",
+    "totalprice": 7168,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 2320

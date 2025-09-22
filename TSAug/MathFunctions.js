@@ -1,0 +1,9 @@
+define(["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.add = add;
+    function add(a, b) {
+        return a + b;
+    }
+});
+//# sourceMappingURL=MathFunctions.js.map

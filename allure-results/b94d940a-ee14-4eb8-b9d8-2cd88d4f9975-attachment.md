@@ -1,0 +1,55 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - separator [ref=e3]
+    - iframe [ref=e8]:
+      - generic [ref=f1e2]:
+        - generic [ref=f1e3]:
+          - checkbox "I'm not a robot" [ref=f1e7]
+          - generic [ref=f1e10]: I'm not a robot
+        - generic [ref=f1e11]:
+          - generic [ref=f1e14]: reCAPTCHA
+          - generic [ref=f1e15]:
+            - link "Privacy" [ref=f1e16] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/privacy/
+            - generic [ref=f1e17]: "-"
+            - link "Terms" [ref=f1e18] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/terms/
+    - separator [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]: About this page
+      - text: Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+      - link "Why did this happen?" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+      - text: "IP address: 115.98.55.189"
+      - text: "Time: 2025-09-19T11:35:58Z"
+      - text: "URL: https://www.google.com/search?q=Playwright+by+Testers+Talk&sca_esv=a6493d853efe4d30&source=hp&ei=G0DNaNb3FrP2seMPvIzm-A0&iflsig=AOw8s4IAAAAAaM1OK7iFvMzX6M9mo6iD4e0WPIzMoCcd&ved=0ahUKEwiW8cb73eSPAxUze2wGHTyGGd8Q4dUDCBA&uact=5&oq=Playwright+by+Testers+Talk&gs_lp=Egdnd3Mtd2l6IhpQbGF5d3JpZ2h0IGJ5IFRlc3RlcnMgVGFsazIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPATIKEAAYAxjqAhiPAUipAVB6WHpwAXgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIBoAITqAIKmAMT8QWpi0Cl0GI-opIHATGgBwCyBwC4BwDCBwMzLTHIBxA&sclient=gws-wiz&sei=HUDNaMW4C8uWseMP0JzVmA8"
+  - iframe [active] [ref=e16]:
+    - dialog [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e7]:
+          - text: Select all images with
+          - strong [ref=f2e8]: stairs
+        - table [ref=f2e11]:
+          - rowgroup [ref=f2e12]:
+            - row [ref=f2e13]:
+              - button [ref=f2e14]
+              - button [ref=f2e17]
+              - button [ref=f2e21]
+            - row [ref=f2e25]:
+              - button [ref=f2e26]
+              - button [ref=f2e29]
+              - button [ref=f2e32]
+            - row [ref=f2e36]:
+              - button [ref=f2e37]
+              - button [active] [ref=f2e40]
+              - button [ref=f2e44]
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]:
+          - button "Get a new challenge" [ref=f2e53] [cursor=pointer]
+          - button "Get an audio challenge" [ref=f2e55] [cursor=pointer]
+          - button "Help" [ref=f2e57] [cursor=pointer]
+        - button "Verify" [ref=f2e59] [cursor=pointer]
+```

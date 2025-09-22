@@ -1,0 +1,30 @@
+POST API Response: {
+  "bookingid": 4288,
+  "booking": {
+    "firstname": "Annamae",
+    "lastname": "Bosco",
+    "totalprice": 6857,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 4288
+GET API Response: {
+  "firstname": "Annamae",
+  "lastname": "Bosco",
+  "totalprice": 6857,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "ebd49b7396a70da"
+}
+Token is : ebd49b7396a70da

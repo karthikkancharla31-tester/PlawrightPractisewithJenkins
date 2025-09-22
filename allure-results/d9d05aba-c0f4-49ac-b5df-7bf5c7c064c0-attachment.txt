@@ -1,0 +1,30 @@
+POST API Response: {
+  "bookingid": 3345,
+  "booking": {
+    "firstname": "Althea",
+    "lastname": "Pollich",
+    "totalprice": 2112,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 3345
+GET API Response: {
+  "firstname": "Althea",
+  "lastname": "Pollich",
+  "totalprice": 2112,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "81f134f9b1691ff"
+}
+Token is : 81f134f9b1691ff

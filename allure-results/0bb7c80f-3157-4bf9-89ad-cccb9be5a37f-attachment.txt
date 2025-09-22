@@ -1,0 +1,14 @@
+POST API Response: {
+  "bookingid": 240,
+  "booking": {
+    "firstname": "Kasandra",
+    "lastname": "Padberg",
+    "totalprice": 9506,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}

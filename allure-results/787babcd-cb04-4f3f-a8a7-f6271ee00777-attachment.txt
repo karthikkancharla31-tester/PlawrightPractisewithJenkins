@@ -1,0 +1,30 @@
+POST API Response: {
+  "bookingid": 2286,
+  "booking": {
+    "firstname": "Jazmyne",
+    "lastname": "Reynolds",
+    "totalprice": 8562,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 2286
+GET API Response: {
+  "firstname": "Jazmyne",
+  "lastname": "Reynolds",
+  "totalprice": 8562,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "bc825883d98e947"
+}
+Token is : bc825883d98e947

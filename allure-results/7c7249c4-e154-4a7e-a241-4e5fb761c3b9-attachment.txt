@@ -1,0 +1,31 @@
+POST API Response: {
+  "bookingid": 1789,
+  "booking": {
+    "firstname": "Tomasa",
+    "lastname": "Gibson",
+    "totalprice": 7688,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 1789
+GET API Response: {
+  "firstname": "Tomasa",
+  "lastname": "Gibson",
+  "totalprice": 7688,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "368f683642681bb"
+}
+Token is : 368f683642681bb
+Bad Request

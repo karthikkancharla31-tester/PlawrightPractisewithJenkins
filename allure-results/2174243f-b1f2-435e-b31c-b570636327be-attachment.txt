@@ -1,0 +1,31 @@
+POST API Response: {
+  "bookingid": 4292,
+  "booking": {
+    "firstname": "Shaina",
+    "lastname": "Ledner",
+    "totalprice": 7581,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 4292
+GET API Response: {
+  "firstname": "Shaina",
+  "lastname": "Ledner",
+  "totalprice": 7581,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "1d790e65d431cb0"
+}
+Token is : 1d790e65d431cb0
+Delete API Response Created

@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="17.181891">
+<testsuite name="Chapter01\02_First_test.spec.ts" timestamp="2025-09-18T06:19:58.213Z" hostname="firefox" tests="1" failures="0" skipped="0" time="13.718" errors="0">
+<testcase name="My First playwright test script" classname="Chapter01\02_First_test.spec.ts" time="13.718">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-02_First_test-My-First-playwright-test-script-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\Chapter01-02_First_test-My-First-playwright-test-script-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

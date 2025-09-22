@@ -1,0 +1,20 @@
+POST API Response: {
+  "bookingid": 2621,
+  "booking": {
+    "firstname": "Marcella",
+    "lastname": "Swaniawski",
+    "totalprice": 5476,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 2621
+GET API Response: [
+  {
+    "bookingid": 2621
+  }
+]

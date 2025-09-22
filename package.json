@@ -1,0 +1,25 @@
+{
+  "name": "playwrightproject2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@e965/xlsx": "^0.20.3",
+    "@faker-js/faker": "^10.0.0",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.2",
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.1",
+    "allure-playwright": "^3.4.1"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

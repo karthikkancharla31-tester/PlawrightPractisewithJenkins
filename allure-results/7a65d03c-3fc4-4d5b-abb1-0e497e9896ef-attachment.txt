@@ -1,0 +1,30 @@
+POST API Response: {
+  "bookingid": 3059,
+  "booking": {
+    "firstname": "Dorothea",
+    "lastname": "Cummerata",
+    "totalprice": 7425,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-09-21",
+      "checkout": "2025-10-12"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking ID: 3059
+GET API Response: {
+  "firstname": "Dorothea",
+  "lastname": "Cummerata",
+  "totalprice": 7425,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-09-21",
+    "checkout": "2025-10-12"
+  },
+  "additionalneeds": "breakfast"
+}
+GET Token API Response: {
+  "token": "34e3e643e625dce"
+}
+Token is : 34e3e643e625dce

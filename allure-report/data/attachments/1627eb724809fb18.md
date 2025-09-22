@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e14]:
+        - img [ref=e17]
+        - heading "Sign in to GitHub" [level=1] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e24]:
+          - button "Dismiss this message" [active] [ref=e25] [cursor=pointer]:
+            - img [ref=e26] [cursor=pointer]
+          - alert [ref=e28]: Incorrect username or password.
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Username or email address
+            - textbox "Username or email address" [ref=e33]: abcd@test.com
+          - generic [ref=e34]:
+            - generic [ref=e35]: Password
+            - textbox "Password" [ref=e36]
+            - link "Forgot password?" [ref=e37] [cursor=pointer]:
+              - /url: /password_reset
+          - button "Sign in" [ref=e39] [cursor=pointer]
+        - generic [ref=e40]:
+          - generic [ref=e42]: or
+          - button "Continue with Google" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45] [cursor=pointer]:
+              - generic:
+                - img:
+                  - img
+              - generic [ref=e46] [cursor=pointer]: Continue with Google
+      - generic [ref=e47]:
+        - paragraph [ref=e49]:
+          - text: New to GitHub?
+          - link "Create an account" [ref=e50] [cursor=pointer]:
+            - /url: /signup?return_to=https%3A%2F%2Fgithub.com%2Flogin&source=login
+        - paragraph [ref=e52]:
+          - button "Sign in with a passkey" [ref=e53] [cursor=pointer]:
+            - generic [ref=e55] [cursor=pointer]: Sign in with a passkey
+  - contentinfo [ref=e56]:
+    - list [ref=e57]:
+      - listitem [ref=e58]:
+        - link "Terms" [ref=e59] [cursor=pointer]:
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem [ref=e60]:
+        - link "Privacy" [ref=e61] [cursor=pointer]:
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem [ref=e62]:
+        - link "Docs" [ref=e63] [cursor=pointer]:
+          - /url: https://docs.github.com
+      - listitem [ref=e64]:
+        - link "Contact GitHub Support" [ref=e65] [cursor=pointer]:
+          - /url: https://support.github.com
+      - listitem [ref=e66]:
+        - button "Manage cookies" [ref=e68] [cursor=pointer]
+      - listitem [ref=e69]:
+        - button "Do not share my personal information" [ref=e71] [cursor=pointer]
+```

@@ -1,0 +1,38 @@
+POST API Response : {
+  "bookingid": 3470,
+  "booking": {
+    "firstname": "Frieda",
+    "lastname": "Shanahan",
+    "totalprice": 7828,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Booking Id : 3470
+GET API Response : {
+  "firstname": "Frieda",
+  "lastname": "Shanahan",
+  "totalprice": 7828,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+Token : d0960bfe0c865ba
+PATCH API Response : {
+  "firstname": "Karthik",
+  "lastname": "Shanahan",
+  "totalprice": 7828,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}

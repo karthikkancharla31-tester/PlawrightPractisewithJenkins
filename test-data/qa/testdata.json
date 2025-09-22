@@ -1,0 +1,10 @@
+{
+    "TestDataSet1":{
+        "email":"kkk@test.com",
+        "pwd":"123456"
+    },
+    "TestDataSet2":{
+        "email":"aaa@test.com",
+        "pwd":"L213#2"
+    }
+}
